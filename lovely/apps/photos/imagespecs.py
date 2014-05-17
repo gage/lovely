@@ -2,8 +2,7 @@
 
 #from imagekit.specs import ImageSpec
 #from imagekit import processors
-import ImageEnhance
-from PIL import ImageOps
+from PIL import ImageOps,ImageEnhance
 from imagekit.models import ImageSpecField
 from imagekit import processors
 
