@@ -1,4 +1,4 @@
-from djages.configs.common.settings import *
+from lovely.configs.common.settings import *
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -22,14 +22,14 @@ DATABASES = {
     'default': {
     	'ENGINE': 'dbindexer',
     	'TARGET': 'mongodb',
-        'NAME': 'djages',
-        'TEST_NAME': 'test_djages',
+        'NAME': 'lovely',
+        'TEST_NAME': 'test_lovely',
         'HOST': 'localhost',
     },
     'mongodb': {
     	'ENGINE': 'django_mongodb_engine',
-    	'NAME': 'djages',
-    	'TEST_NAME': 'test_djages',
+    	'NAME': 'lovely',
+    	'TEST_NAME': 'test_lovely',
         'HOST': 'localhost',
     },
 }

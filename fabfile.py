@@ -11,11 +11,11 @@ from fabric.colors import green, yellow, red
 """
 Base configuration
 """
-env.project_name = 'djages'
-env.path = '/home/djages/site/%(project_name)s' % env
+env.project_name = 'lovely'
+env.path = '/home/lovely/site/%(project_name)s' % env
 env.repo_path = '%(path)s/repository' % env
 env.env_path = '%(path)s/env' % env
-env.repo_url = 'https://github.com/optfantasy/djages'
+env.repo_url = 'https://gage@github.com/gage/lovely'
 
 """
 Environments
@@ -29,7 +29,7 @@ def staging(web_ip, mongo_ips):
 
     env.settings = 'staging'
     env.hosts = ['%s:22' % web_ip]
-    env.user = 'djages'
+    env.user = 'lovely'
 
 def setup(ip, username='ubuntu', password=None, port=22):
     env.hosts = ['%s:%s' % (ip, port)]
@@ -165,8 +165,8 @@ def deploy_staging():
     print green("Performing a deployment to: %s" % env.hosts[0])
     # run('sudo chown %(project_name)s:%(project_name)s %(repo_path)s/%(project_name)s/media/.gitignore' % env)
     checkout_latest()
-    command = '%(repo_path)s/djages/scripts/deploy.sh --web_ip %(web_ip)s --mongo_ips %(mongo_ips)s' % env
+    command = '%(repo_path)s/lovely/scripts/deploy.sh --web_ip %(web_ip)s --mongo_ips %(mongo_ips)s' % env
             
-    sudo(command, user='djages')
+    sudo(command, user='lovely')
 
 

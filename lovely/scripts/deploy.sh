@@ -26,33 +26,33 @@ do
     fi
     echo "$IP_LABEL => ${!IP_LABEL}"
     echo "nginx"
-    sed -i "s/$IP_LABEL/${!IP_LABEL}/g" /home/djages/site/djages/repository/djages/configs/staging/nginx
+    sed -i "s/$IP_LABEL/${!IP_LABEL}/g" /home/lovely/site/lovely/repository/lovely/configs/staging/nginx
     echo "apache"
-    sed -i "s/$IP_LABEL/${!IP_LABEL}/g" /home/djages/site/djages/repository/djages/configs/staging/apache
+    sed -i "s/$IP_LABEL/${!IP_LABEL}/g" /home/lovely/site/lovely/repository/lovely/configs/staging/apache
     echo "settings.py"
-    sed -i "s/$IP_LABEL/${!IP_LABEL}/g" /home/djages/site/djages/repository/djages/configs/staging/settings.py
+    sed -i "s/$IP_LABEL/${!IP_LABEL}/g" /home/lovely/site/lovely/repository/lovely/configs/staging/settings.py
 done
 
 echo "cp nginx/apache configuration to site-enabled"
-cd /home/djages/site/djages/repository
-sudo cp djages/configs/staging/nginx /etc/nginx/sites-enabled/djages
+cd /home/lovely/site/lovely/repository
+sudo cp lovely/configs/staging/nginx /etc/nginx/sites-enabled/lovely
 
-sudo cp djages/configs/staging/apache /etc/apache2/sites-enabled/djages.conf
-sudo cp djages/configs/staging/ports.conf /etc/apache2/
-# sudo cp djages/configs/staging/proxy.conf /etc/nginx/proxy.conf
+sudo cp lovely/configs/staging/apache /etc/apache2/sites-enabled/lovely.conf
+sudo cp lovely/configs/staging/ports.conf /etc/apache2/
+# sudo cp lovely/configs/staging/proxy.conf /etc/nginx/proxy.conf
 
 echo "virtual env activate"
-cd /home/djages/site/djages/repository
+cd /home/lovely/site/lovely/repository
 . ../env/bin/activate
 
 echo "remove statics"
-rm -rf ./djages/static/*
-cd ./djages/configs/staging
+rm -rf ./lovely/static/*
+cd ./lovely/configs/staging
 echo "collect static"
 python manage.py collectstatic --noinput --verbosity=0
 
 #echo "comlile less files"
-#cd /home/djages/site/djages/repository/djages/static
+#cd /home/lovely/site/lovely/repository/lovely/static
 #lessc -x ./less/base.less > ./css/base.css
 
 echo "restart apache2"

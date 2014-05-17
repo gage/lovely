@@ -1,12 +1,12 @@
 <VirtualHost *:8080>
     ServerName 127.0.0.1
 
-    WSGIScriptAlias / /home/djages/site/djages/repository/djages/configs/staging/staging.wsgi
+    WSGIScriptAlias / /home/lovely/site/lovely/repository/lovely/configs/staging/staging.wsgi
  
-    ErrorLog /home/djages/logs/apache.error.log
+    ErrorLog /home/lovely/logs/apache.error.log
     LogLevel warn
 
-    CustomLog /home/djages/logs/apache.access.log combined
+    CustomLog /home/lovely/logs/apache.access.log combined
     
     ServerSignature Off
 </VirtualHost>
@@ -14,8 +14,8 @@
 <VirtualHost *:8081>
     ServerName 127.0.0.1
 
-    Alias /media/ "/home/djages/site/djages/repository/djages/media/"
-    <Directory "/home/djages/site/djages/repository/djages/media/">
+    Alias /media/ "/home/lovely/site/lovely/repository/lovely/media/"
+    <Directory "/home/lovely/site/lovely/repository/lovely/media/">
         Options MultiViews FollowSymLinks
         AllowOverride None
         Order deny,allow
@@ -27,8 +27,8 @@
         ExpiresDefault "access plus 1 week"
     </Directory>
     
-    Alias /static/ "/home/djages/site/djages/repository/djages/static/"
-    <Directory "/home/djages/site/djages/repository/djages/static/">
+    Alias /static/ "/home/lovely/site/lovely/repository/lovely/static/"
+    <Directory "/home/lovely/site/lovely/repository/lovely/static/">
         Options MultiViews FollowSymLinks
         AllowOverride None
         Order deny,allow

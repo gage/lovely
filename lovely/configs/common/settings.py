@@ -1,4 +1,4 @@
-# Django settings for djages project.
+# Django settings for lovely project.
 
 import os
 
@@ -18,13 +18,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'dbindexer',
         'TARGET': 'mongodb',
-        'NAME': 'djages',
-        'TEST_NAME': 'test_djages',
+        'NAME': 'lovely',
+        'TEST_NAME': 'test_lovely',
     },
     'mongodb': {
         'ENGINE': 'django_mongodb_engine',
-        'NAME': 'djages',
-        'TEST_NAME': 'test_djages',
+        'NAME': 'lovely',
+        'TEST_NAME': 'test_lovely',
     },
 }
 
@@ -132,7 +132,7 @@ MIDDLEWARE_CLASSES = (
 # AUTHENTICATION_BACKENDS = (
 # )
 
-ROOT_URLCONF = 'djages.configs.common.urls'
+ROOT_URLCONF = 'lovely.configs.common.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
