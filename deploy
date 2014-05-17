@@ -8,8 +8,8 @@ if [ "$1" == "" ] && [ "$2" == "" ] && [ "$3" == "" ] && [ "$4" == "" ]; then
    # exit 1;
 fi
 
-WEBIP=YOUR_SERVER_IP_OR_DOAMIN
-MONGOIP=MONGO_DB_IP
+WEBIP=ec2-54-95-41-61.ap-northeast-1.compute.amazonaws.com
+MONGOIP=localhost
 
 # if [ "$WEBIP" == "YOUR_SERVER_IP_OR_DOAMIN" ] || [ "$MONGOIP" == "MONGO_DB_IP" ]; then
 #     echo "Please specified your server ip and mongodb ip in deploy file."

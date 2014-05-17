@@ -4,6 +4,6 @@ https://github.com/gage/django/tarball/nonrel-1.4
 https://github.com/gage/django-dbindexer/tarball/dbindexer-1.4
 https://github.com/gage/mongodb-engine/tarball/mongodb-engine-1.4-beta
 django-imagekit==2.0.2
-PIL
+Pillow
 jinja2
 fabric==1.0.1
