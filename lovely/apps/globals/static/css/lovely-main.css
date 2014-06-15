@@ -1,0 +1,265 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 14px;
+}
+
+.ui-body-c .ui-link {
+    color:#333;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.ui-body-c .ui-link:visited {
+    color:#333;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+body * {
+    font-family: "Lovely Serif","Times New Roman",serif;
+}
+
+.ui-body-c, .ui-overlay-c {
+    background: url(/static/images/image-02.png) rgba(255,255,255,0.6) 10% 0%;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 920px;
+    overflow: hidden;
+    border-right: solid 7px rgba(0,0,0,0.6);
+    border-left: solid 7px rgba(0,0,0,0.6);
+
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.fb-link {
+    position:absolute;
+    top:10px;
+    right:0px;
+}
+
+.two-col-layout {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.right-section {
+    padding-left: 10px;
+    width: 360px;
+    float:left;
+}
+
+
+.hero-unit {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hero-unit img {
+    width: 920px;
+}
+
+/* news-section */
+.news-section .news-section-title {
+    overflow: hidden;
+    margin-bottom: 2px;
+    border-bottom: 1px black solid;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.news-section .news-section-title img{
+    float: left;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+.news-section .news-section-title .news-title-chinese-caption {
+    margin-top: -5px;
+}
+
+.news-section .articles {
+}
+.news-section .article {
+    border-top: 2px #888 dotted;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 200px;
+
+    min-height:120px;
+}
+
+.news-section .article .newsimg {
+    float:left;
+    margin-left:-180px;
+    width:155px;
+}
+
+/* about-section */
+.about-section {
+    overflow: hidden;
+    padding-top: 40px;
+}
+.about-section .about-section-title .about-chinese-caption {
+    margin-top: -5px;
+}
+.about-section .about-section-title > img {
+    float: left;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+.about-section .about-section-title .about-section-hr-container {
+    text-align: left;
+}
+.about-section .about-section-title .about-section-hr-container img{
+    width: 490px;
+}
+.about-section .about-section-title .about-section-hr-rabbit-container {
+    text-align: right;
+    margin-top: -72px;
+}
+.about-section .about-chinese {
+    border-bottom: 2px dotted black;
+}
+.about-section .about-text-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/* Information */
+.info-section .info-section-title .info-section-title-hr-container {
+    margin-top: -3px;
+}
+.info-section .info-section-phone-container {
+    text-align: right;
+}
+.info-section .info-section-address-container {
+    text-align: right;
+    font-size: 18px;
+    margin-top: -18px;
+}
+
+
+
+/* HEADER */
+.header{
+    padding-top: 105px;
+    width: 920px;
+    margin-top:-35px;
+}
+
+.header .header-section {
+    float: left;
+    width: 184px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -20px;
+}
+
+.header .header-section.right {
+    text-align:right;
+}
+
+.header .header-section .underground {
+    margin-bottom:-30px;
+}
+
+/*ad hoc adjusting.*/
+.header .header-section.info {
+    padding-top: 30px;
+    font-size: 10px;
+    font-size: 12pt;
+}
+
+.header .header-section.info .underground {
+    margin-top:10px;
+}
+
+.header .header-section.find {
+    padding-top:30px;
+}
+
+.header .header-section.find .underground {
+    margin-bottom:-20px;
+}
+
+.header .header-section.shop > img.rollover{
+    position:relative;
+    top:10px;
+}
+
+.header .header-section.shop > img.normal{
+    position:relative;
+    top:10px;
+}
+
+.header-hr-container {
+    text-align: center;
+    width: 920px;
+}
+.header-hr-container img {
+   position:relative;
+   top:5px;
+   width: 920px; 
+}
+.header-home-logo-container {
+    text-align: center;
+    margin-top: -106px;
+    margin-left: 4px;
+}
+
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.footer-hr-caption-container {
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: -8px;
+}
+.footer-hr-container {
+    text-align: center;
+}
+.footer-lovely-logo-container {
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.footer-menu-container {
+    text-align: center;
+    margin-top: -65px;
+    overflow: hidden;
+}
+.footer-menu {
+    list-style-type: none;
+    overflow: hidden;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-menu li {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+img.rollover {
+    display:none;
+}
+
+@font-face {
+    /*
+     *  No, it's too big...
+    font-family: "Lovely Serif";
+    src: url(/static/font/LovelySerif.otf);
+    */
+}

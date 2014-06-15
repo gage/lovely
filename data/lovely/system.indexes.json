@@ -1,0 +1,29 @@
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.django_session", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.auth_permission", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.auth_group_permissions", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.auth_group", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.auth_user_user_permissions", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.auth_user_groups", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.auth_user", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.auth_message", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.django_content_type", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.django_site", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.django_admin_log", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "lovely.news_news", "name" : "_id_" }
+{ "v" : 1, "key" : { "content_type_id" : 1 }, "ns" : "lovely.auth_permission", "name" : "content_type_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "content_type_id" : 1, "codename" : 1 }, "unique" : true, "ns" : "lovely.auth_permission", "name" : "content_type_id_1_codename_1", "sparse" : false }
+{ "v" : 1, "key" : { "group_id" : 1 }, "ns" : "lovely.auth_group_permissions", "name" : "group_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "permission_id" : 1 }, "ns" : "lovely.auth_group_permissions", "name" : "permission_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "group_id" : 1, "permission_id" : 1 }, "unique" : true, "ns" : "lovely.auth_group_permissions", "name" : "group_id_1_permission_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "name" : 1 }, "unique" : true, "ns" : "lovely.auth_group", "name" : "name_1", "sparse" : false }
+{ "v" : 1, "key" : { "user_id" : 1 }, "ns" : "lovely.auth_user_user_permissions", "name" : "user_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "permission_id" : 1 }, "ns" : "lovely.auth_user_user_permissions", "name" : "permission_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "user_id" : 1, "permission_id" : 1 }, "unique" : true, "ns" : "lovely.auth_user_user_permissions", "name" : "user_id_1_permission_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "user_id" : 1 }, "ns" : "lovely.auth_user_groups", "name" : "user_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "group_id" : 1 }, "ns" : "lovely.auth_user_groups", "name" : "group_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "user_id" : 1, "group_id" : 1 }, "unique" : true, "ns" : "lovely.auth_user_groups", "name" : "user_id_1_group_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "username" : 1 }, "unique" : true, "ns" : "lovely.auth_user", "name" : "username_1", "sparse" : false }
+{ "v" : 1, "key" : { "user_id" : 1 }, "ns" : "lovely.auth_message", "name" : "user_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "app_label" : 1, "model" : 1 }, "unique" : true, "ns" : "lovely.django_content_type", "name" : "app_label_1_model_1", "sparse" : false }
+{ "v" : 1, "key" : { "user_id" : 1 }, "ns" : "lovely.django_admin_log", "name" : "user_id_1", "sparse" : false }
+{ "v" : 1, "key" : { "content_type_id" : 1 }, "ns" : "lovely.django_admin_log", "name" : "content_type_id_1", "sparse" : false }

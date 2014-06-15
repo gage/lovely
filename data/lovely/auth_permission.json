@@ -1,0 +1,27 @@
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8e4" }, "codename" : "add_permission", "name" : "Can add permission", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e0" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8e5" }, "codename" : "change_permission", "name" : "Can change permission", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e0" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8e6" }, "codename" : "delete_permission", "name" : "Can delete permission", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e0" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8e7" }, "codename" : "add_group", "name" : "Can add group", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e1" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8e8" }, "codename" : "change_group", "name" : "Can change group", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e1" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8e9" }, "codename" : "delete_group", "name" : "Can delete group", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e1" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8ea" }, "codename" : "add_user", "name" : "Can add user", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e2" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8eb" }, "codename" : "change_user", "name" : "Can change user", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e2" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8ec" }, "codename" : "delete_user", "name" : "Can delete user", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e2" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8ed" }, "codename" : "add_message", "name" : "Can add message", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e3" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8ee" }, "codename" : "change_message", "name" : "Can change message", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e3" } }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8ef" }, "codename" : "delete_message", "name" : "Can delete message", "content_type_id" : { "$oid" : "506eba0982aee33683e2b8e3" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8f2" }, "codename" : "add_contenttype", "name" : "Can add content type", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8f1" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8f3" }, "codename" : "change_contenttype", "name" : "Can change content type", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8f1" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8f4" }, "codename" : "delete_contenttype", "name" : "Can delete content type", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8f1" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8f6" }, "codename" : "add_session", "name" : "Can add session", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8f5" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8f7" }, "codename" : "change_session", "name" : "Can change session", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8f5" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8f8" }, "codename" : "delete_session", "name" : "Can delete session", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8f5" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8fa" }, "codename" : "add_site", "name" : "Can add site", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8f9" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8fb" }, "codename" : "change_site", "name" : "Can change site", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8f9" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8fc" }, "codename" : "delete_site", "name" : "Can delete site", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8f9" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8ff" }, "codename" : "add_logentry", "name" : "Can add log entry", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8fe" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b900" }, "codename" : "change_logentry", "name" : "Can change log entry", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8fe" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b901" }, "codename" : "delete_logentry", "name" : "Can delete log entry", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b8fe" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b903" }, "codename" : "add_news", "name" : "Can add news", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b902" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b904" }, "codename" : "change_news", "name" : "Can change news", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b902" } }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b905" }, "codename" : "delete_news", "name" : "Can delete news", "content_type_id" : { "$oid" : "506eba2d82aee33683e2b902" } }

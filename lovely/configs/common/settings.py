@@ -157,6 +157,7 @@ INSTALLED_APPS = (
     'coffin',
 
     'globals',
+    'news',
     'user_profiles',
     'api',
     'proto'

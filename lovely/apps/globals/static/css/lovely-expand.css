@@ -1,0 +1,15 @@
+.wrapper_test_expand .collapse{
+    text-overflow: ellipsis;
+}
+
+.wrapper_test_expand .content{
+
+}
+
+.wrapper_test_expand .readmore{
+    opacity: 0.6;
+}
+
+.wrapper_test_expand .readless{
+    opacity: 0.6;
+}

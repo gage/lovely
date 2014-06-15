@@ -1,0 +1,9 @@
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8e0" }, "model" : "permission", "name" : "permission", "app_label" : "auth" }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8e1" }, "model" : "group", "name" : "group", "app_label" : "auth" }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8e2" }, "model" : "user", "name" : "user", "app_label" : "auth" }
+{ "_id" : { "$oid" : "506eba0982aee33683e2b8e3" }, "model" : "message", "name" : "message", "app_label" : "auth" }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8f1" }, "model" : "contenttype", "name" : "content type", "app_label" : "contenttypes" }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8f5" }, "model" : "session", "name" : "session", "app_label" : "sessions" }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8f9" }, "model" : "site", "name" : "site", "app_label" : "sites" }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b8fe" }, "model" : "logentry", "name" : "log entry", "app_label" : "admin" }
+{ "_id" : { "$oid" : "506eba2d82aee33683e2b902" }, "model" : "news", "name" : "news", "app_label" : "news" }
